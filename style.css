@@ -1,0 +1,239 @@
+body {
+	max-width: 1360px;
+	font-family: "Calibri";
+}
+
+#nav {
+	background-color: white;
+	color: #3D63A5;
+	height: 4vw;
+	border: none;
+}
+
+.f1 {
+	font-size: 40px;
+	padding-top: 1.5vw;
+}
+
+#bs-example-navbar-collapse-1 .user {
+	font-size: 30px;
+	padding: 10px;
+}
+
+#bs-example-navbar-collapse-1 li {
+	/*	border: 10px solid white;*/
+	/*	border-radius: 50%;*/
+}
+
+@media (max-width: 768px) {
+	#nav {
+		height: 55px;
+	}
+	.f1 {
+		font-size: 30px;
+/*		padding-top: 20px;*/
+	}
+}
+
+
+/*---menu---*/
+
+#menu {
+	overflow: hidden;
+/*		background-color: #D0E0E7;*/
+	box-shadow: 0px 0px 10px gray;
+	padding-left: 140px;
+	width: 100%;
+	margin: 0px auto 20px;
+}
+
+#menu > section {
+	float: left;
+	height: 30px;
+	text-align: center;
+	display: table;
+	padding: 0px 10px 10px;
+	cursor: pointer;
+}
+
+#menu > section > span {
+	display: table-cell;
+	font-size: 15px;
+	font-family: serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-bottom: 10px;
+	line-height: 1.17;
+}
+
+#menu > section:hover {
+	color: #0078CA;
+}
+
+#menu > section:hover span {
+	line-height: 1;
+	border-bottom: 2px solid #0078CA;
+}
+
+@media (min-width: 992px) {
+	#menu {
+/*		padding-left: 30px;*/
+	}
+	#menu > section {
+		height: 40px;
+	}
+	#menu > section > span {
+/*		font-size: 15px;*/
+	}
+}
+
+@media (max-width: 768px) {
+	#menu > section {
+		margin: 0px;
+/*		padding-left: 70px;*/
+	}
+	
+	#menu > section > span {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 480px) {
+	#menu {
+		padding-left: 
+	}
+	#menu > section {
+		display: none;
+	}
+	
+	#menu > section > span {
+	}
+}
+
+/*---menu---*/
+
+
+/*---B1---*/
+
+#b1 {
+	text-align: right;
+	/*	width: 90%;*/
+	/*	margin: 20px auto;*/
+	/*	box-shadow: 0px 1px 50px #065683;*/
+}
+
+#b1 > div {
+	overflow: hidden;
+	/*	max-height: 47vw;*/
+}
+
+.yellow {
+	background-color: rgba(217, 255, 0, 0.8);
+}
+
+.red {
+	background-color: rgba(255, 39, 29, 0.8);
+}
+
+.orange {
+	background-color: rgba(255, 129, 0, 0.8);
+}
+
+.purple {
+	background-color: rgba(109, 46, 174, 0.8);
+}
+
+.blue {
+	background-color: rgba(13, 35, 255, 0.8);
+}
+
+.default {
+	background-color: rgba(0, 119, 255, 0.8);
+}
+
+#b1 section {
+	float: left;
+	border-radius: 50px;
+	width: 22.5%;
+	height: 60px;
+	display: table;
+	box-shadow: 0px 0px 3px #02a6d3;
+	margin: 1.5vw 1vw;
+	position: relative;
+	transition-duration: 0.5s;
+	text-align: center;
+}
+
+#b1 section span {
+	color: white;
+	display: table-cell;
+	font-size: 25px;
+	width: 100%;
+	font-family: "Open Sans";
+	text-transform: uppercase;
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+#b1 section i {
+	display: none;
+	position: absolute;
+	left: 45%;
+	top: 10px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+#b1 section:hover i {
+	display: block;
+}
+
+#b1 button {
+	font-size: 15px;
+	margin-bottom: 30px;
+	border-radius: 50px;
+	margin-right: 20px;
+	transition-duration: 0.5s;
+}
+
+#b1 button:hover {
+	background-color: #02b3e4;
+	color: white;
+}
+
+@media (min-width: 1158px) {
+	#b1 section {
+		/*		width: 200px;*/
+		height: 60px;
+	}
+	#b1 section span {
+/*		font-size: 35px;*/
+	}
+	#b1 section span:hover {
+		/*		font-size: 30px;*/
+	}
+}
+
+@media (max-width: 992px) {
+	#b1 section {
+		/*		margin: 22px 0px 22px 44px;*/
+				width: 22.3%;
+		height: 40px;
+	}
+	#b1 section span {
+		font-size: 17px;
+	}
+	#b1 button {
+		/*		font-size: 13px;*/
+	}
+}
+
+@media (max-width: 768px) {
+	#b1 button {
+		font-size: 12px;
+		padding: 2px 8px;
+	}
+}
+
+/*--- END B1---*/
+
