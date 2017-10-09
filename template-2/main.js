@@ -22,8 +22,7 @@ function color() {
 }
 
 function init() {
-	color();
-	setInterval(serviceFlap,100);
+//	color();
 }
 
 window.addEventListener("DOMContentLoaded", init);
